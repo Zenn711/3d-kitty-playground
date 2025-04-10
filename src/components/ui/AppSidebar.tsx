@@ -27,7 +27,7 @@ export function AppSidebar() {
           <PawPrint size={28} className="text-cat-primary" />
           <h1 className="text-xl font-bold">Kitty-Verse</h1>
         </div>
-        <SidebarTrigger asChild>
+        <SidebarTrigger>
           <Button size="icon" variant="ghost">
             <Menu />
           </Button>
