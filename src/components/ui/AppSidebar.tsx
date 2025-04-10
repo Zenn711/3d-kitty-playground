@@ -1,6 +1,6 @@
 
 import { useTheme } from "@/hooks/use-theme";
-import { CatFact, Heart, Home, Info, Menu, Moon, PawPrint, Sun } from "lucide-react";
+import { FileText, Heart, Home, Info, Menu, Moon, PawPrint, Sun } from "lucide-react";
 import { NavLink } from "react-router-dom";
 import {
   Sidebar,
@@ -75,7 +75,7 @@ export function AppSidebar() {
                       isActive ? "text-cat-primary font-medium" : ""
                     }
                   >
-                    <CatFact className="mr-2 h-5 w-5" />
+                    <FileText className="mr-2 h-5 w-5" />
                     <span>Cat Facts</span>
                   </NavLink>
                 </SidebarMenuButton>
