@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+**3D Kitty Playground**
 
-## Project info
+Welcome to 3D Kitty Playground, a whimsical, 3D web-based playground that’s just for fun! Think of it as a quirky, interactive website where you can poke around and enjoy a playful experience. Built as a side project, this is all about creativity and good vibes
 
-**URL**: https://lovable.dev/projects/4521bfc2-6dcb-4b98-b8c0-038cf5482139
+**Features**
+- A fully interactive 3D environment to explore.
+- Smooth and responsive design for a fun user experience.
+- Lightweight and fast, thanks to modern web tools.
+- Just a little bit of chaos and charm, because why not?
 
-## How can I edit this code?
+**Tech Stack**
+This project is powered by:
+Vite - Lightning-fast build tool for modern web apps.
+TypeScript - JavaScript with supercharged type safety.
+React - For building dynamic and interactive UIs.
+shadcn-ui - Beautiful, customizable UI components.
+Tailwind CSS - Utility-first CSS for rapid styling.
 
-There are several ways of editing your application.
+**Getting Started**
+Want to run this kitty playground locally or contribute to the fun? Here’s how you can get started:
 
-**Use Lovable**
+Prerequisites
+Node.js & npm - Install them using nvm if you haven’t already.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4521bfc2-6dcb-4b98-b8c0-038cf5482139) and start prompting.
+Installation
+1. Clone the repository:
+**git clone https://github.com/Zenn711/3d-kitty-playground.git**
 
-Changes made via Lovable will be committed automatically to this repo.
+2. Navigate to the project folder:
+**cd 3d-kitty-playground**
 
-**Use your preferred IDE**
+3. Install dependencies:
+**npm i**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+4. Start the development server:
+**npm run dev**
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+This will fire up a local server with auto-reloading and an instant preview. Edit away and watch the magic happen!
 
-Follow these steps:
+**Alternative Ways to Edit**
+Don’t want to clone locally? No worries! You can:
+- Edit directly in GitHub:
+    1. Navigate to the file you want to edit.
+    2. Click the  Edit button (pencil icon).
+    3. Make changes and commit them.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Use GitHub Codespaces:
+    1. Go to the repository’s main page.
+    2. Click the green Code button > Codespaces tab.
+    3. Hit New codespace to launch a cloud-based editor.
+    4. Edit, commit, and push your changes from there.
+ 
+Contributing
+This is an iseng-iseng project, but if you’ve got ideas to make it even more fun, feel free to contribute! Just:
+Fork the repo.
+  1. Create a new branch (git checkout -b feature/cool-idea).
+  2. Commit your changes (git commit -m "Added something awesome").
+  3. Push to the branch (git push origin feature/cool-idea).
+  4. Open a Pull Request.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+License
+This project is licensed under the **MIT License** - see the LICENSE file for details.
 
-# Step 3: Install the necessary dependencies.
-npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/4521bfc2-6dcb-4b98-b8c0-038cf5482139) and click on Share -> Publish.
 
-## Can I connect a custom domain to my Lovable project?
 
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
